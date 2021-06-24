@@ -20,8 +20,8 @@ public class Conexion {
         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver"); //para obtener el driver
         String stringConexion =  "jdbc:sqlserver://localhost:1433;" + //este String para conectarnos
                        "databaseName=CUENTAS_BANCOS;" +  //este código(entero amarillo) lo obtenemos del SGBD, en este caso SQL Server
-                       "user=agar;" +
-                        "password=P4t4t1t4;" +
+                       "user=USUARIO_BD;" +
+                        "password=CONTRASENIA_BD;" +
                       "encrypt=false;" +
                      "trustServerCertificate=false;" +
                       "loginTimeout=30;";
